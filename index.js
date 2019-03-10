@@ -62,7 +62,7 @@ window.onload = function(){
     
 
     // function animation(){
-    //   var sun = document.getElementById('sun')[0];
+    //   var currentTime = 7;
     //   var currentTime = new Date().getHours();
     //   if (currentTime >= 6 && currentTime <= 21) {
     //     TweenMax.from("#sun", 3, {x:300, opacity:0, scale:0.5});
@@ -73,7 +73,7 @@ window.onload = function(){
     // }
 
 
-  TweenMax.from("#sun", 3, {x:300, opacity:0, scale:0.5});
-// TweenMax.from("#moon", 3, {x:300, opacity:0, scale:0.5});
+  TweenMax.from("#sun", 3, {x:300, opacity:0, scale:0.5, delay:1});
+  TweenMax.from("#moon", 3, {x:300, opacity:0, scale:0.5, delay:3});
 
 
