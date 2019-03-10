@@ -57,7 +57,7 @@ window.onload = function(){
     y = n.getFullYear();
     m = n.getMonth() + 1;
     d = n.getDate();
-    document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+    document.getElementById("date").innerHTML = d + "/" + m + "/" + y;
 
     
 
@@ -73,7 +73,7 @@ window.onload = function(){
     // }
 
 
-TweenMax.from("#sun", 3, {x:300, opacity:0, scale:0.5});
+  TweenMax.from("#sun", 3, {x:300, opacity:0, scale:0.5});
 // TweenMax.from("#moon", 3, {x:300, opacity:0, scale:0.5});
 
 

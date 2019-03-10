@@ -5,7 +5,7 @@ body {
 	font-family: digital-7;
 	src: url(digital-7.ttf);
 	background-color:#000; 
-  margin:10px;
+  	margin:10px;
 }
 
 .container {
@@ -25,20 +25,21 @@ body {
 	flex: 1;
 	display: inline-block;
 }
+
 #date {
-		margin-bottom: 55px;
-	}
+	margin-bottom: 55px;
+}
 
 
 @media only screen and (min-width: 0px){
 	#sun {
 	  width: 200px;
-	  margin-top: 10px;
+	  margin-top: 25px;
 	}
 
 	#moon {
 	  width: 180px;
-	  margin-top: 15px;
+	  margin-top: 25px;
 	}
 
 	p {
@@ -47,6 +48,10 @@ body {
 	
 	#txt {
 		font-size: 115px;
+	}
+
+	.container {
+		margin-top: 50px;
 	}
 }
 
